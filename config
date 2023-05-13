@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "aarthy"]
+	url = https://github.com/aarthy03/MERN-Stock-Inventory-Website
+	fetch = +refs/heads/*:refs/remotes/aarthy/*
+[branch "master"]
+	remote = aarthy
+	merge = refs/heads/master
